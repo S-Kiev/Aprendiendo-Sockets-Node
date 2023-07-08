@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Usando Sockets</h1>
+    <div id="nuevoUsuario"></div>
+    <div id="chat">
+        <input type="text" id="usuario" placeholder="ingrese su nombre">
+
+        <div id="todos-mensajes"></div>
+
+        <div id="escribiendo"></div>
+
+        <textarea name="escribir_mensaje" id="escribir_mensaje" cols="30" rows="10" placeholder="Ingrese su mensaje"></textarea>
+    </div>
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="index.js"></script>    
+</body>
+</html>

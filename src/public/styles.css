@@ -1,0 +1,23 @@
+#chat{
+    margin: 0 auto;
+    width: 300px;
+}
+
+#escribir_mensaje{
+    padding: 20px;
+}
+
+#todos-mensajes{
+    height: 300px;
+    overflow: auto;
+}
+
+.mensaje{
+    background-color: cornflowerblue;
+    color: aliceblue;
+    padding: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: auto;
+    border-radius: 10px;
+}
